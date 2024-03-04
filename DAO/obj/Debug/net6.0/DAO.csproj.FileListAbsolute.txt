@@ -1,0 +1,15 @@
+D:\Study Stuff\SPRING STUFF\SPRING 2024\PRN 221\CODES AND PROJECTS\RazorPageEmpManagement\DAO\bin\Debug\net6.0\DAO.deps.json
+D:\Study Stuff\SPRING STUFF\SPRING 2024\PRN 221\CODES AND PROJECTS\RazorPageEmpManagement\DAO\bin\Debug\net6.0\DAO.dll
+D:\Study Stuff\SPRING STUFF\SPRING 2024\PRN 221\CODES AND PROJECTS\RazorPageEmpManagement\DAO\bin\Debug\net6.0\DAO.pdb
+D:\Study Stuff\SPRING STUFF\SPRING 2024\PRN 221\CODES AND PROJECTS\RazorPageEmpManagement\DAO\bin\Debug\net6.0\BusinessObject.dll
+D:\Study Stuff\SPRING STUFF\SPRING 2024\PRN 221\CODES AND PROJECTS\RazorPageEmpManagement\DAO\bin\Debug\net6.0\BusinessObject.pdb
+D:\Study Stuff\SPRING STUFF\SPRING 2024\PRN 221\CODES AND PROJECTS\RazorPageEmpManagement\DAO\obj\Debug\net6.0\DAO.csproj.AssemblyReference.cache
+D:\Study Stuff\SPRING STUFF\SPRING 2024\PRN 221\CODES AND PROJECTS\RazorPageEmpManagement\DAO\obj\Debug\net6.0\DAO.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study Stuff\SPRING STUFF\SPRING 2024\PRN 221\CODES AND PROJECTS\RazorPageEmpManagement\DAO\obj\Debug\net6.0\DAO.AssemblyInfoInputs.cache
+D:\Study Stuff\SPRING STUFF\SPRING 2024\PRN 221\CODES AND PROJECTS\RazorPageEmpManagement\DAO\obj\Debug\net6.0\DAO.AssemblyInfo.cs
+D:\Study Stuff\SPRING STUFF\SPRING 2024\PRN 221\CODES AND PROJECTS\RazorPageEmpManagement\DAO\obj\Debug\net6.0\DAO.csproj.CoreCompileInputs.cache
+D:\Study Stuff\SPRING STUFF\SPRING 2024\PRN 221\CODES AND PROJECTS\RazorPageEmpManagement\DAO\obj\Debug\net6.0\DAO.csproj.Up2Date
+D:\Study Stuff\SPRING STUFF\SPRING 2024\PRN 221\CODES AND PROJECTS\RazorPageEmpManagement\DAO\obj\Debug\net6.0\DAO.dll
+D:\Study Stuff\SPRING STUFF\SPRING 2024\PRN 221\CODES AND PROJECTS\RazorPageEmpManagement\DAO\obj\Debug\net6.0\refint\DAO.dll
+D:\Study Stuff\SPRING STUFF\SPRING 2024\PRN 221\CODES AND PROJECTS\RazorPageEmpManagement\DAO\obj\Debug\net6.0\DAO.pdb
+D:\Study Stuff\SPRING STUFF\SPRING 2024\PRN 221\CODES AND PROJECTS\RazorPageEmpManagement\DAO\obj\Debug\net6.0\ref\DAO.dll
