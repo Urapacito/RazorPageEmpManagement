@@ -294,3 +294,4 @@ D:\Study Stuff\SPRING STUFF\SPRING 2024\PRN 221\CODES AND PROJECTS\RazorPageEmpM
 D:\Study Stuff\SPRING STUFF\SPRING 2024\PRN 221\CODES AND PROJECTS\RazorPageEmpManagement\RazorPageEmpManagement\bin\Debug\net6.0\BusinessObject.pdb
 D:\Study Stuff\SPRING STUFF\SPRING 2024\PRN 221\CODES AND PROJECTS\RazorPageEmpManagement\RazorPageEmpManagement\bin\Debug\net6.0\DAO.pdb
 D:\Study Stuff\SPRING STUFF\SPRING 2024\PRN 221\CODES AND PROJECTS\RazorPageEmpManagement\RazorPageEmpManagement\bin\Debug\net6.0\Repo.pdb
+D:\Study Stuff\SPRING STUFF\SPRING 2024\PRN 221\CODES AND PROJECTS\RazorPageEmpManagement\RazorPageEmpManagement\obj\Debug\net6.0\RazorPageEmpManagement.sourcelink.json

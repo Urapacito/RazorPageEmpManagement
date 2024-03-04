@@ -63,6 +63,7 @@ namespace RazorPageEmpManagement.Pages.EmployeePage
             try
             {
                 _employeeService.UpdateEmployee(Employee);
+                TempData["SuccessMessage"] = "Employee updated successfully!";
             }
             catch (DbUpdateConcurrencyException)
             {
