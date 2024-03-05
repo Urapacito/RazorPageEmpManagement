@@ -17,3 +17,4 @@ D:\Study Stuff\SPRING STUFF\SPRING 2024\PRN 221\CODES AND PROJECTS\RazorPageEmpM
 D:\Study Stuff\SPRING STUFF\SPRING 2024\PRN 221\CODES AND PROJECTS\RazorPageEmpManagement\Service\obj\Debug\net6.0\refint\Service.dll
 D:\Study Stuff\SPRING STUFF\SPRING 2024\PRN 221\CODES AND PROJECTS\RazorPageEmpManagement\Service\obj\Debug\net6.0\Service.pdb
 D:\Study Stuff\SPRING STUFF\SPRING 2024\PRN 221\CODES AND PROJECTS\RazorPageEmpManagement\Service\obj\Debug\net6.0\ref\Service.dll
+D:\Study Stuff\SPRING STUFF\SPRING 2024\PRN 221\CODES AND PROJECTS\RazorPageEmpManagement\Service\obj\Debug\net6.0\Service.sourcelink.json

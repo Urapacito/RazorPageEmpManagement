@@ -19,12 +19,14 @@ namespace Service.DepartmentService
             departmentRepo = new DepartmentRepo();
         }
 
+        public Department GetDepartmentById(int departmentId) => departmentRepo.GetDepartmentById(departmentId);
+
         public List<Department> GetDepartment() => departmentRepo.GetDepartment();
 
-        public bool UpdateDepartment(DepartmentDTO updatedDepartment) => departmentRepo.UpdateDepartment(updatedDepartment);
+        public void UpdateDepartment(Department updatedDepartment) => departmentRepo.UpdateDepartment(updatedDepartment);
 
-        public bool AddDepartment(DepartmentDTO newDepartment) => departmentRepo.AddDepartment(newDepartment);
+        public void AddDepartment(Department newDepartment) => departmentRepo.AddDepartment(newDepartment);
 
-        public bool DeleteDepartment(int departmentId) => departmentRepo.DeleteDepartment(departmentId);
+        public void DeleteDepartment(int departmentId) => departmentRepo.DeleteDepartment(departmentId);
     }
 }

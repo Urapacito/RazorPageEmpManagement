@@ -15,3 +15,4 @@ D:\Study Stuff\SPRING STUFF\SPRING 2024\PRN 221\CODES AND PROJECTS\RazorPageEmpM
 D:\Study Stuff\SPRING STUFF\SPRING 2024\PRN 221\CODES AND PROJECTS\RazorPageEmpManagement\Repo\obj\Debug\net6.0\refint\Repo.dll
 D:\Study Stuff\SPRING STUFF\SPRING 2024\PRN 221\CODES AND PROJECTS\RazorPageEmpManagement\Repo\obj\Debug\net6.0\Repo.pdb
 D:\Study Stuff\SPRING STUFF\SPRING 2024\PRN 221\CODES AND PROJECTS\RazorPageEmpManagement\Repo\obj\Debug\net6.0\ref\Repo.dll
+D:\Study Stuff\SPRING STUFF\SPRING 2024\PRN 221\CODES AND PROJECTS\RazorPageEmpManagement\Repo\obj\Debug\net6.0\Repo.sourcelink.json

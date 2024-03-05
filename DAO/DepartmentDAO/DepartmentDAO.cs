@@ -41,8 +41,14 @@ namespace DAO.DepartmentDAO
             return _empManagementContext.Departments.ToList();
         }
 
+        public Department GetDepartmentById(int departmentId)
+        {
+            return _empManagementContext.Departments
+                .FirstOrDefault(d => d.DepartmentId == departmentId);
+        }
+
         // Update department
-        public bool UpdateDepartment(DepartmentDTO updatedDepartment)
+/*        public bool UpdateDepartment(DepartmentDTO updatedDepartment)
         {
             try
             {
@@ -70,10 +76,25 @@ namespace DAO.DepartmentDAO
                 Console.WriteLine(ex.Message);
                 return false;
             }
+        }*/
+
+        public void UpdateDepartment(Department updatedDepartment)
+        {
+            var department = _empManagementContext.Departments
+                .FirstOrDefault(d => d.DepartmentId == updatedDepartment.DepartmentId);
+            if (department == null)
+            {
+                return;
+            }
+            else
+            {
+                department.DepartmentName = updatedDepartment.DepartmentName;
+                _empManagementContext.SaveChanges();
+            }
         }
 
         // Add department
-        public bool AddDepartment(DepartmentDTO newDepartment)
+/*        public bool AddDepartment(DepartmentDTO newDepartment)
         {
             try
             {
@@ -95,10 +116,16 @@ namespace DAO.DepartmentDAO
                 Console.WriteLine(ex.Message);
                 return false;
             }
+        }*/
+
+        public void AddDepartment(Department newDepartment)
+        {
+            _empManagementContext.Departments.Add(newDepartment);
+            _empManagementContext.SaveChanges();
         }
 
         // Delete department
-        public bool DeleteDepartment(int departmentId)
+/*        public bool DeleteDepartment(int departmentId)
         {
             try
             {
@@ -123,6 +150,16 @@ namespace DAO.DepartmentDAO
                 // Handle any errors
                 Console.WriteLine(ex.Message);
                 return false;
+            }
+        }*/
+
+        public void DeleteDepartment(int departmentId)
+        {
+            var department = _empManagementContext.Departments.FirstOrDefault(d => d.DepartmentId == departmentId);
+            if (department != null)
+            {
+                _empManagementContext.Departments.Remove(department);
+                _empManagementContext.SaveChanges();
             }
         }
     }

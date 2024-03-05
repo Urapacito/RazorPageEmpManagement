@@ -12,12 +12,14 @@ namespace DAO.DepartmentDAO
     {
         /*        public List<DepartmentDTO> GetAllDepartments();*/
 
+        public Department GetDepartmentById(int departmentId);
+
         public List<Department> GetDepartment();
 
-        public bool UpdateDepartment(DepartmentDTO updatedDepartment);
+        public void UpdateDepartment(Department updatedDepartment);
 
-        public bool AddDepartment(DepartmentDTO newDepartment);
+        public void AddDepartment(Department newDepartment);
 
-        public bool DeleteDepartment(int departmentId);
+        public void DeleteDepartment(int departmentId);
     }
 }

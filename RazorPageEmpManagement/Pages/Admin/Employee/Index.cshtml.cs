@@ -42,5 +42,12 @@ namespace RazorPageEmpManagement.Pages.EmployeeAdminPage
             _employeeService.ClearEmployeeSession();
             return RedirectToPage("/Index");
         }
+
+        public IActionResult OnPostDepartment()
+        {
+            // Redirect to the Departments index page
+            return RedirectToPage("/Admin/Departments/Index");
+        }
+
     }
 }

@@ -18,6 +18,26 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\Study Stuff\SPRING STUFF\SPRING 2024\PRN 221\CODES AND PROJECTS\RazorPageEmpManagement\RazorPageEmpManagement
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/Study Stuff/SPRING STUFF/SPRING 2024/PRN 221/CODES AND PROJECTS/RazorPageEmpManagement/RazorPageEmpManagement/Pages/Admin/Departments/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cRGVwYXJ0bWVudHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Study Stuff/SPRING STUFF/SPRING 2024/PRN 221/CODES AND PROJECTS/RazorPageEmpManagement/RazorPageEmpManagement/Pages/Admin/Departments/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cRGVwYXJ0bWVudHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Study Stuff/SPRING STUFF/SPRING 2024/PRN 221/CODES AND PROJECTS/RazorPageEmpManagement/RazorPageEmpManagement/Pages/Admin/Departments/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cRGVwYXJ0bWVudHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Study Stuff/SPRING STUFF/SPRING 2024/PRN 221/CODES AND PROJECTS/RazorPageEmpManagement/RazorPageEmpManagement/Pages/Admin/Departments/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cRGVwYXJ0bWVudHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Study Stuff/SPRING STUFF/SPRING 2024/PRN 221/CODES AND PROJECTS/RazorPageEmpManagement/RazorPageEmpManagement/Pages/Admin/Departments/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cRGVwYXJ0bWVudHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Study Stuff/SPRING STUFF/SPRING 2024/PRN 221/CODES AND PROJECTS/RazorPageEmpManagement/RazorPageEmpManagement/Pages/Admin/Employee/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cRW1wbG95ZWVcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

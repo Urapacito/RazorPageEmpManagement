@@ -13,3 +13,4 @@ D:\Study Stuff\SPRING STUFF\SPRING 2024\PRN 221\CODES AND PROJECTS\RazorPageEmpM
 D:\Study Stuff\SPRING STUFF\SPRING 2024\PRN 221\CODES AND PROJECTS\RazorPageEmpManagement\DAO\obj\Debug\net6.0\refint\DAO.dll
 D:\Study Stuff\SPRING STUFF\SPRING 2024\PRN 221\CODES AND PROJECTS\RazorPageEmpManagement\DAO\obj\Debug\net6.0\DAO.pdb
 D:\Study Stuff\SPRING STUFF\SPRING 2024\PRN 221\CODES AND PROJECTS\RazorPageEmpManagement\DAO\obj\Debug\net6.0\ref\DAO.dll
+D:\Study Stuff\SPRING STUFF\SPRING 2024\PRN 221\CODES AND PROJECTS\RazorPageEmpManagement\DAO\obj\Debug\net6.0\DAO.sourcelink.json

@@ -18,12 +18,14 @@ namespace Repo.DepartmentRepo
             departmentDAO = new DepartmentDAO();
         }
 
+        public Department GetDepartmentById(int departmentId) => departmentDAO.GetDepartmentById(departmentId);
+
         public List<Department> GetDepartment() => departmentDAO.GetDepartment();
 
-        public bool UpdateDepartment(DepartmentDTO updatedDepartment) => departmentDAO.UpdateDepartment(updatedDepartment);
+        public void UpdateDepartment(Department updatedDepartment) => departmentDAO.UpdateDepartment(updatedDepartment);
 
-        public bool AddDepartment(DepartmentDTO newDepartment) => departmentDAO.AddDepartment(newDepartment);
+        public void AddDepartment(Department newDepartment) => departmentDAO.AddDepartment(newDepartment);
 
-        public bool DeleteDepartment(int departmentId) => departmentDAO.DeleteDepartment(departmentId);
+        public void DeleteDepartment(int departmentId) => departmentDAO.DeleteDepartment(departmentId);
     }
 }
