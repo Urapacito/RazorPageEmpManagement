@@ -40,6 +40,12 @@ namespace RazorPageEmpManagement.Pages.EmployeeAdminPage
 
         public async Task<IActionResult> OnGetAsync(int? id)
         {
+            var employeeId = HttpContext.Session.GetInt32("EmployeeId");
+            if (!employeeId.HasValue)
+            {
+                return RedirectToPage("/Index");
+            }
+
             if (id == null)
             {
                 return NotFound();

@@ -21,10 +21,19 @@ namespace RazorPageEmpManagement.Pages.EmployeeAdminPage
 
         public IList<Employee> Employee { get;set; } = default!;
 
-        public async Task OnGetAsync()
+        public IActionResult OnGet()
         {
+            var employeeId = HttpContext.Session.GetInt32("EmployeeId");
+
+            if (!employeeId.HasValue)
+            {
+                return RedirectToPage("/Index");
+            }
+
             // Get all employees from
             Employee = _employeeService.GetEmployees();
+
+            return Page();
         }
 
         // Logout logic

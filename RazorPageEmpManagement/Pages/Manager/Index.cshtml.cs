@@ -25,10 +25,14 @@ namespace RazorPageEmpManagement.Pages.Manager
             _employeeService = employeeService;
         }
 
-        public void OnGet()
+        public IActionResult OnGet()
         {
             // Retrieve the managerId from Session
             var managerId = HttpContext.Session.GetInt32("EmployeeId");
+            if (!managerId.HasValue)
+            {
+                return RedirectToPage("/Index");
+            }
 
             if (managerId.HasValue)
             {
@@ -38,6 +42,8 @@ namespace RazorPageEmpManagement.Pages.Manager
             {
                 // Handle the case where managerId is not available
             }
+
+            return Page();
         }
 
         public IActionResult OnPost()

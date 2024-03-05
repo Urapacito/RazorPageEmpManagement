@@ -39,6 +39,11 @@ namespace RazorPageEmpManagement.Pages.EmployeeAdminPage
 
         public IActionResult OnGet()
         {
+            var employeeId = HttpContext.Session.GetInt32("EmployeeId");
+            if (!employeeId.HasValue)
+            {
+                return RedirectToPage("/Index");
+            }
             // You'll need to replace these lines with appropriate service calls
             // ViewData["DepartmentId"] = new SelectList(_context.Departments, "DepartmentId", "DepartmentName");
             // ViewData["RoleId"] = new SelectList(_context.Roles, "RoleId", "RoleName");

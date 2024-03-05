@@ -38,9 +38,15 @@ namespace RazorPageEmpManagement.Pages.EmployeePage
             _teamsService = teamsService;
         }
 
-        public void OnGet()
+        public IActionResult OnGet()
         {
             var employeeId = HttpContext.Session.GetInt32("EmployeeId");
+
+            if (!employeeId.HasValue)
+            {
+                return RedirectToPage("/Index");
+            }
+
             Employee = _employeeService.GetEmployeeAccount(employeeId.Value);
             if (Employee == null)
             {
@@ -51,6 +57,8 @@ namespace RazorPageEmpManagement.Pages.EmployeePage
             Departments = new SelectList(_departmentService.GetDepartment(), "DepartmentId", "DepartmentName");
             Roles = new SelectList(_roleService.GetRoles(), "RoleId", "RoleName");
             Teams = new SelectList(_teamsService.GetTeams(), "Id", "TeamName");
+
+            return Page();
         }
 
         public async Task<IActionResult> OnPostAsync()
@@ -63,7 +71,7 @@ namespace RazorPageEmpManagement.Pages.EmployeePage
             try
             {
                 _employeeService.UpdateEmployee(Employee);
-                TempData["SuccessMessage"] = "Employee updated successfully!";
+                HttpContext.Session.SetString("SuccessMessage", "Employee updated successfully!");
             }
             catch (DbUpdateConcurrencyException)
             {
